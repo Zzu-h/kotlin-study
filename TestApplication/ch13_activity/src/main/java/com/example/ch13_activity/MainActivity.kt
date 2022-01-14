@@ -1,11 +1,9 @@
 package com.example.ch13_activity
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.util.Log
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -23,6 +21,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //add................................
+        binding.mainFab.setOnClickListener{
+            val intent = Intent(this,AddActivity::class.java)
+            startActivityForResult(intent, 10)
+        }
+
+        datas = savedInstanceState?.let{
+            it.getStringArrayList("datas")?.toMutableList()
+        }?: let{
+            mutableListOf<String>()
+        }
 
         val layoutManager = LinearLayoutManager(this)
         binding.mainRecyclerView.layoutManager=layoutManager
@@ -31,17 +39,6 @@ class MainActivity : AppCompatActivity() {
         binding.mainRecyclerView.addItemDecoration(
             DividerItemDecoration(this, LinearLayoutManager.VERTICAL)
         )
-
-        binding.mainFab.setOnClickListener{
-            val intent = intent
-            startActivityForResult(intent, 10)
-        }
-        datas = savedInstanceState?.let{
-            it.getStringArrayList("datas")?.toMutableList()
-        }?: let{
-            mutableListOf<String>()
-        }
-
     }
 
     //add...............................
@@ -55,7 +52,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    @SuppressLint("MissingSuperCall")
     override fun onSaveInstanceState(outState: Bundle): Unit {
         super.onSaveInstanceState(outState)
         outState.putStringArrayList("datas", ArrayList(datas))

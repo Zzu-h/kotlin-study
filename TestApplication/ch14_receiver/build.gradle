@@ -7,12 +7,12 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.ch13_activity"
+        applicationId "com.example.ch14_receiver"
         minSdk 28
-        targetSdk 30
+        targetSdk 32
         versionCode 1
         versionName "1.0"
-        multiDexEnabled true
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
