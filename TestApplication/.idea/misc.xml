@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/ch11_jetpack/src/main/res/layout/activity_main.xml" value="0.18385416666666668" />
+        <entry key="app/ch11_jetpack/src/main/res/layout/fragment_one.xml" value="0.14947916666666666" />
+        <entry key="app/ch11_jetpack/src/main/res/layout/fragment_three.xml" value="0.15" />
+        <entry key="app/ch11_jetpack/src/main/res/layout/fragment_two.xml" value="0.15" />
+        <entry key="app/ch11_jetpack/src/main/res/menu/menu_main.xml" value="0.14947916666666666" />
+        <entry key="app/ch12_material/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24583333333333332" />
+        <entry key="app/ch12_material/src/main/res/layout/activity_main.xml" value="0.16558990373945878" />
+        <entry key="app/ch12_material/src/main/res/menu/menu_navigation.xml" value="0.2296875" />
+        <entry key="app/ch16_provider/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.9456931758649352" />
@@ -10,12 +19,14 @@
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.18958333333333333" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20572916666666666" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.20572916666666666" />
+        <entry key="app/src/main/res/xml/file_paths.xml" value="0.19791666666666666" />
         <entry key="ch10_notification/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
         <entry key="ch13_activity/src/main/res/layout/activity_add.xml" value="0.2095018964986798" />
         <entry key="ch13_activity/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="ch13_activity/src/main/res/layout/item_recyclerview.xml" value="0.19791666666666666" />
         <entry key="ch13_activity/src/main/res/menu/menu_add.xml" value="0.2947916666666667" />
         <entry key="ch14_receiver/src/main/res/layout/activity_main.xml" value="0.192481884057971" />
+        <entry key="ch15_outer/src/main/res/layout/activity_main.xml" value="0.15208333333333332" />
         <entry key="ch15_service/src/main/res/layout/activity_main.xml" value="0.28072916666666664" />
         <entry key="ch4_receiver/src/main/res/layout/activity_main.xml" value="0.19701086956521738" />
         <entry key="ch6_view/src/main/res/layout/activity_constraint_layout.xml" value="0.592476084033305" />

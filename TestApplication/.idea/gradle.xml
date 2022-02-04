@@ -11,7 +11,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/ch11_jetpack" />
+            <option value="$PROJECT_DIR$/app/ch12_material" />
+            <option value="$PROJECT_DIR$/app/ch16_provider" />
             <option value="$PROJECT_DIR$/ch10_notification" />
+            <option value="$PROJECT_DIR$/ch12_material" />
             <option value="$PROJECT_DIR$/ch13_activity" />
             <option value="$PROJECT_DIR$/ch14_receiver" />
             <option value="$PROJECT_DIR$/ch15_outer" />
