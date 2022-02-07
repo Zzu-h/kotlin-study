@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import com.zzuh.filot_shoppings.databinding.FragmentCategoryBinding
-import com.zzuh.filot_shoppings.ui.viewmodel.CategoryViewModel
+import com.zzuh.filot_shoppings.ui.main.viewmodel.CategoryViewModel
 
 class CategoryFragment(private val categoryViewModel: CategoryViewModel) : Fragment() {
 

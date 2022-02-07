@@ -11,7 +11,12 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3770833333333333" />
         <entry key="app/src/main/res/layout/activity_launch.xml" value="0.346875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1560943206785303" />
+        <entry key="app/src/main/res/layout/activity_product_detail.xml" value="0.2" />
         <entry key="app/src/main/res/layout/footer.xml" value="0.380803240976377" />
+        <entry key="app/src/main/res/layout/fragment_category.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/main_fragment.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/product_list_item.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/selected_list_item.xml" value="0.33" />
         <entry key="app/src/main/res/layout/temp_layout.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/menu/header.xml" value="0.3553846153846154" />
         <entry key="app/src/main/res/menu/menu_header.xml" value="0.3609375" />
@@ -20,7 +25,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

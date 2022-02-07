@@ -17,14 +17,14 @@ import androidx.fragment.app.FragmentTransaction
 import com.google.android.material.tabs.TabLayout
 import com.zzuh.filot_shoppings.R
 import com.zzuh.filot_shoppings.databinding.ActivityMainBinding
-import com.zzuh.filot_shoppings.ui.viewmodel.CategoryViewModel
+import com.zzuh.filot_shoppings.ui.main.viewmodel.CategoryViewModel
 import android.widget.LinearLayout
 
 import android.graphics.drawable.GradientDrawable
 import android.view.View
 import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
-import com.zzuh.filot_shoppings.ui.viewmodel.MainViewModel
+import com.zzuh.filot_shoppings.ui.main.viewmodel.MainViewModel
 
 const val BANNER_IMG_URL = "https://file.cafe24cos.com/banner-admin-live/upload/joker8992/ede80c3b-076d-40e9-83c6-fb4c1f12c00b.jpeg"
 

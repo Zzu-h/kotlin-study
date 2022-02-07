@@ -1,4 +1,4 @@
-package com.zzuh.filot_shoppings.ui.viewmodel
+package com.zzuh.filot_shoppings.ui.main.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

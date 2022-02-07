@@ -9,7 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import com.zzuh.filot_shoppings.databinding.MainFragmentBinding
-import com.zzuh.filot_shoppings.ui.viewmodel.MainViewModel
+import com.zzuh.filot_shoppings.ui.main.viewmodel.MainViewModel
 
 class MainFragment(private var viewModel: MainViewModel) : Fragment() {
         lateinit var binding: MainFragmentBinding

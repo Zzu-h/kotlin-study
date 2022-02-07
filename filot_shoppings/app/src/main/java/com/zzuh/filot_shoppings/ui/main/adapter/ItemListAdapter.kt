@@ -1,6 +1,7 @@
 package com.zzuh.filot_shoppings.ui.main
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -19,7 +20,7 @@ class ItemListAdapter(private var itemList: List<Product>, val context: Context)
         val binding = holder.binding
         val item = this.itemList[position]
         binding.nameItem.text = item.name
-        binding.priceItem.text =  item.price
+        binding.priceItem.text =  item.price.toString()
 
         val moviePosterURL: String = IMAGE_BASE_URL + item.imagePath
 
@@ -29,9 +30,9 @@ class ItemListAdapter(private var itemList: List<Product>, val context: Context)
 
         binding.cardView.isClickable = true
         binding.cardView.setOnClickListener{
-            /*val intent = Intent(context, ProductDetail::class.java)
+            val intent = Intent(context, ProductDetailActivity::class.java)
             intent.putExtra("id", item.id)
-            context.startActivity(intent)*/
+            context.startActivity(intent)
         }
     }
 
