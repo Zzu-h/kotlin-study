@@ -38,6 +38,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var mainFragment: MainFragment
     lateinit var mainViewModel: MainViewModel
 
+    lateinit var cartFragment: CartFragment
+
     lateinit var categoryFragment: CategoryFragment
     lateinit var categoryViewModel: CategoryViewModel
 
@@ -55,6 +57,7 @@ class MainActivity : AppCompatActivity() {
 
         categoryFragment = CategoryFragment(categoryViewModel)
         mainFragment = MainFragment(mainViewModel)
+        cartFragment = CartFragment()
 
         Glide.with(this)
             .load(BANNER_IMG_URL)
@@ -138,6 +141,12 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(toggle.onOptionsItemSelected(item)){
             return true
+        }
+        if(item.itemId == R.id.menu_cart){
+            transaction = fragmentManager.beginTransaction()
+            transaction.replace(R.id.fragment_content, cartFragment)
+            if(mainViewModel.isMain!!) mainViewModel.isMain = false
+            transaction.commit()
         }
         return super.onOptionsItemSelected(item)
     }
