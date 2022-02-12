@@ -11,7 +11,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        binding.backBtn.setOnClickListener { finish() }
         binding.joinTv.setOnClickListener{
             val intent = Intent(this, JoinActivity::class.java)
             startActivity(intent)

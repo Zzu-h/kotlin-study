@@ -23,6 +23,7 @@ import android.widget.LinearLayout
 
 import android.graphics.drawable.GradientDrawable
 import android.view.View
+import androidx.core.view.GravityCompat
 import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
 import com.zzuh.filot_shoppings.ui.login.LoginActivity
@@ -84,6 +85,8 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
         toggle.syncState()
+
+        binding.drawerLayout.backBtn.setOnClickListener { binding.root.closeDrawer(GravityCompat.START) }
     }
 
     private fun initFragmentSetting():Unit{

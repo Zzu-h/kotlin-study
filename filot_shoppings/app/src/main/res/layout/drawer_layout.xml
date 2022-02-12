@@ -55,12 +55,15 @@
                     android:clickable="true"
                     />
             </LinearLayout>
-            <ImageButton
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/back_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:src="@drawable/baseline_keyboard_backspace_black_24"
                 android:background="@color/white"
+                android:tint="@color/gray_800"
                 android:layout_weight="1"
-                android:src="@drawable/outline_shopping_cart_black_24"/>
+                />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
