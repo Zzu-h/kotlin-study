@@ -76,5 +76,6 @@
                 </LinearLayout>
        </ScrollView>
     </LinearLayout>
-    <include layout="@layout/drawer_layout"/>
+    <include layout="@layout/drawer_layout"
+        android:id="@+id/drawer_layout"/>
 </androidx.drawerlayout.widget.DrawerLayout>

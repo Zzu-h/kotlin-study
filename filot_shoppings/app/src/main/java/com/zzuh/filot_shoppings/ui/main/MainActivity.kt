@@ -6,6 +6,7 @@
 
 package com.zzuh.filot_shoppings.ui.main
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -24,6 +25,7 @@ import android.graphics.drawable.GradientDrawable
 import android.view.View
 import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
+import com.zzuh.filot_shoppings.ui.login.LoginActivity
 import com.zzuh.filot_shoppings.ui.main.viewmodel.MainViewModel
 
 const val BANNER_IMG_URL = "https://file.cafe24cos.com/banner-admin-live/upload/joker8992/ede80c3b-076d-40e9-83c6-fb4c1f12c00b.jpeg"
@@ -68,6 +70,11 @@ class MainActivity : AppCompatActivity() {
         initToolBarSetting()
         initFragmentSetting()
         initViewModelSetting()
+
+        binding.drawerLayout.needLoginTv.setOnClickListener {
+            var intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun initToolBarSetting():Unit{
