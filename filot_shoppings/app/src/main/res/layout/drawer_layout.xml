@@ -34,7 +34,7 @@
             android:visibility="gone"
             />
         <LinearLayout
-            android:id="@+id/need_login_tv"
+            android:id="@+id/need_login_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="9"
@@ -42,6 +42,7 @@
             android:visibility="visible"
             >
             <TextView
+                android:id="@+id/need_login_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="로그인이 필요합니다!"
