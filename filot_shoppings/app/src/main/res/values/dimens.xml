@@ -8,4 +8,9 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="fragment_horizontal_margin">16dp</dimen>
     <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="admin_page_title_size">20dp</dimen>
+    <dimen name="admin_margin_size">35dp</dimen>
+    <dimen name="table_cell_size">14dp</dimen>
+    <dimen name="table_top_margin_size">0dp</dimen>
+    <dimen name="admin_text_size">18dp</dimen>
 </resources>
