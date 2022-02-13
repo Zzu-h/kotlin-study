@@ -1,4 +1,3 @@
-/*
 package com.example.kotlinproject
 
 import java.io.BufferedReader
@@ -70,4 +69,4 @@ fun temp(t: Int): Boolean{
         return false
     }
     return true
-}*/
+}
