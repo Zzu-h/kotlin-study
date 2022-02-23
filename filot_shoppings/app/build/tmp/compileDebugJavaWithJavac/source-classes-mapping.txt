@@ -1,0 +1,24 @@
+com/zzuh/filot_shoppings/databinding/FragmentCartBinding.java
+ com.zzuh.filot_shoppings.databinding.FragmentCartBinding
+com/zzuh/filot_shoppings/databinding/MainFragmentBinding.java
+ com.zzuh.filot_shoppings.databinding.MainFragmentBinding
+com/zzuh/filot_shoppings/databinding/ActivityLaunchBinding.java
+ com.zzuh.filot_shoppings.databinding.ActivityLaunchBinding
+com/zzuh/filot_shoppings/databinding/SelectedListItemBinding.java
+ com.zzuh.filot_shoppings.databinding.SelectedListItemBinding
+com/zzuh/filot_shoppings/databinding/ProductListItemBinding.java
+ com.zzuh.filot_shoppings.databinding.ProductListItemBinding
+com/zzuh/filot_shoppings/databinding/ActivityMainBinding.java
+ com.zzuh.filot_shoppings.databinding.ActivityMainBinding
+com/zzuh/filot_shoppings/databinding/TempLayoutBinding.java
+ com.zzuh.filot_shoppings.databinding.TempLayoutBinding
+com/zzuh/filot_shoppings/databinding/CartListItemBinding.java
+ com.zzuh.filot_shoppings.databinding.CartListItemBinding
+com/zzuh/filot_shoppings/databinding/FooterBinding.java
+ com.zzuh.filot_shoppings.databinding.FooterBinding
+com/zzuh/filot_shoppings/databinding/FragmentCategoryBinding.java
+ com.zzuh.filot_shoppings.databinding.FragmentCategoryBinding
+com/zzuh/filot_shoppings/databinding/ActivityProductDetailBinding.java
+ com.zzuh.filot_shoppings.databinding.ActivityProductDetailBinding
+com/zzuh/filot_shoppings/BuildConfig.java
+ com.zzuh.filot_shoppings.BuildConfig

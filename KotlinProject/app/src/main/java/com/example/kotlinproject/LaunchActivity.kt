@@ -12,6 +12,9 @@ class LaunchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLaunchBinding.inflate(layoutInflater)
+        val intent = Intent(this, MainActivity::class.java)
+        intent.putExtra("cookie", binding.editText.text)
+        startActivity(intent)
         binding.btn.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.putExtra("cookie", binding.editText.text)

@@ -1,5 +1,6 @@
 package com.example.kotlinproject
 
+import kotlinx.coroutines.*
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
@@ -21,9 +22,13 @@ fun main() = with(System.out.bufferedWriter()){
     var t = haksu.size
     t = (t+1).mod(haksu.size)
     while(true) {
-        Executors.newSingleThreadScheduledExecutor().schedule({
+        CoroutineScope(Dispatchers.IO).launch {
+            delay(2000)
             print("hi")
-        }, 2, TimeUnit.SECONDS)
+        }
+       /* Executors.newSingleThreadScheduledExecutor().schedule({
+            print("hi")
+        }, 2, TimeUnit.SECONDS)*/
     }
 }
 
